@@ -5,14 +5,14 @@ github : https://github.com/rijalghodi
 
 This is a javascript code to solve US phone number validator
 This code will return true if the passed string looks like US phone number
-and return flase if doesn't
-These are the US phone number format looks:
+and return false if doesn't
+These are examples of US phone number formats:
   555-555-5555
   (555)555-5555
   (555) 555-5555
   555 555 5555
   5555555555
-If the country code is provided, it has to be 1 and is placed in the first sequence
+If the country code is provided, it has to be 1 and is placed before the phone number
 */
 
 function telephoneCheck(str) {
